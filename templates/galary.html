@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+</head>
+<body>
+  <html>
+<head>
+<style>
+  body{
+    margin-top: auto;
+    margin-left:5px;
+    margin-right: 5px;
+    padding:10%;
+    border: 1px solid #ffffff;
+  }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  height:200px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height:150px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  background-color: seashell;
+}
+</style>
+</head>
+<body>
+  <h1><b>Choose Your Region</b></h1>
+  <br>
+
+<!-- Bangladesh -->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('bd')}}">
+    <img src="{{url_for('static',filename = 'images/dhk.jpg')}}" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Bangladesh</div>
+</div>
+<!-- USA -->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('USA')}}">
+    <img src="{{url_for('static',filename = 'images/USA.jpg')}}" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">United States Of America</div>
+</div>
+<!-- China -->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('CHina')}}">
+    <img src="{{url_for('static',filename = 'images/china.jpg')}}" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">China</div>
+</div>
+<!--South Korea  -->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Korea')}}">
+    <img src="{{url_for('static',filename = 'images/N.Korea.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">--South Korea</div>
+</div>
+<!--Nigeria  -->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Nigeria')}}">
+    <img src="{{url_for('static',filename = 'images/nigeria .jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Nigeria</div>
+</div>
+<!-- India-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('India')}}">
+    <img src="{{url_for('static',filename = 'images/india.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">India</div>
+</div>
+<!-- Pakistan-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Pakistan')}}">
+    <img src="{{url_for('static',filename = 'images/pakistan.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Pakistan</div>
+</div>
+<!-- Argentina-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Argentina')}}">
+    <img src="{{url_for('static',filename = 'images/Argentina.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Argentina</div>
+</div>
+<!--Indonesia-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('India')}}">
+    <img src="{{url_for('static',filename = 'images/indinesia.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">--Indonesia--</div>
+</div>
+<!-- Phillipines-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Philipines')}}">
+    <img src="{{url_for('static',filename = 'images/philipines.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Phillipines</div>
+</div>
+<!--Vietnam-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Vietnam')}}">
+    <img src="{{url_for('static',filename = 'images/vietnam.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Vietnam</div>
+</div>
+<!--Egypt-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Egypt')}}">
+    <img src="{{url_for('static',filename = 'images/Egypt.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Egypt</div>
+</div>
+<!--Srilanka-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Srilanka')}}">
+    <img src="{{url_for('static',filename = 'images/Srilanka.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Srilanka</div>
+</div>
+<!--Afganistan-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Afganistan')}}">
+    <img src="{{url_for('static',filename = 'images/afganistan.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Afganistan</div>
+</div>
+<!-- Bahrain-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Bahrain')}}">
+    <img src="{{url_for('static',filename = 'images/uae.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Bahrain</div>
+</div>
+<!--UAE-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('UAE')}}">
+    <img src="{{url_for('static',filename = 'images/uae.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">United Arab Amirat</div>
+</div>
+<!--Uganda-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Uganda')}}">
+    <img src="{{url_for('static',filename = 'images/uganada.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Uganda</div>
+</div>
+<!--France-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Ukrain')}}">
+    <img src="{{url_for('static',filename = 'images/france.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">France</div>
+</div>
+<!--Turkey-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Turkey')}}">
+    <img src="{{url_for('static',filename = 'images/Iturkey.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Turkey</div>
+</div>
+<!--Honduras-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('honduras')}}">
+    <img src="{{url_for('static',filename = 'images/Honduras.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Honduras</div>
+</div>
+<!--Ghana-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Ghana')}}">
+    <img src="{{url_for('static',filename = 'images/ghana.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Ghana</div>
+</div>
+<!--Brazil-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Brazil')}}">
+    <img src="{{url_for('static',filename = 'images/Brazil.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Brazil</div>
+</div>
+<!--Spain-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Spain')}}">
+    <img src="{{url_for('static',filename = 'images/france.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Spain</div>
+</div>
+<!--Russia-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('Russia')}}">
+    <img src="{{url_for('static',filename = 'images/russia.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Russia</div>   
+</div>
+<!--United Kingdom-->
+<div class="gallery">
+  <a target="_blank" href="{{url_for('UK')}}">
+    <img src="{{url_for('static',filename = 'images/UK.jpg')}}" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">United Kingdom</div>   
+</div>
+
+<html>
